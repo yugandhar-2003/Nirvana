@@ -11,10 +11,12 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Divine Chat', path: '/divine-chat' },
+    { name: 'Ask me', path: '/contact' },
     { name: 'Meditation', path: '/meditation' },
     { name: 'Sound Healing', path: '/sound-healing' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
+     
   ]
 
   useEffect(() => {
